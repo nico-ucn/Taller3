@@ -1,0 +1,12 @@
+package asdasdasd;
+//Nicolas Lucero
+// 22.221.136-0
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
