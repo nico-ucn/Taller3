@@ -32,6 +32,24 @@ public abstract class Hechizo implements ImpactoHechizo{
     }
     
     
+    public void setNombre(String nombre){
+    	
+        this.nombre = nombre;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+    public void setDano(int dano) {
+        this.dano = dano;
+    }
+
+    
+    @Override
+    public abstract double calcularPuntuacion();
+    
+    
     
     
 }
